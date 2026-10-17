@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit & Pratiksha Wedding | Eterna Love</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        champagne: '#F3E5AB',
+                        champagneDark: '#D4AF37',
+                        ivory: '#FFFBF5',
+                        ivoryCard: '#FFFFFF',
+                        frenchBlue: '#6890C4',
+                        gold: '#DFB15B',
+                        goldBright: '#FFD700',
+                        navy: '#152238',
+                        navyLight: '#1E2E48'
+                    },
+                    fontFamily: {
+                        serif: ['"Cormorant Garamond"', 'serif'],
+                        script: ['"Great Vibes"', 'cursive'],
+                        sans: ['"Montserrat"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-ivory text-navy selection:bg-gold/30 selection:text-navy relative">
+
+    <!-- Sparkles Canvas Background Overlay -->
+    <canvas id="sparklesCanvas" class="fixed inset-0 pointer-events-none z-40"></canvas>
+
+    <!-- Top-Left Corner DrBaba.png Image (Guaranteed Visible) -->
+    <div class="absolute top-4 left-4 sm:top-6 sm:left-6 w-32 sm:w-44 md:w-52 h-44 sm:h-56 md:h-64 pointer-events-none z-30 overflow-hidden corner-blessing-left rounded-3xl shadow-lg border border-gold/30 bg-ivory/50 backdrop-blur-sm">
+        <img src="DrBaba.png" alt="Dr. Babasaheb Ambedkar" class="w-full h-full object-cover object-top">
+    </div>
+
+    <!-- Hero Section with GautamB.png Background -->
+    <section id="home" class="relative min-h-screen flex items-center pt-24 pb-20 overflow-hidden z-10 hero-buddha-bg">
+        <div class="max-w-7xl mx-auto px-6 w-full relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Details -->
+                <div class="lg:col-span-6 space-y-6 text-center lg:text-left z-10" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-champagne/80 border border-gold/40 text-xs uppercase tracking-[0.25em] text-navy font-bold shadow-sm backdrop-blur-md">
+                        <i class="fa-solid fa-heart text-goldBright animate-pulse"></i> Save The Date • 15.11.2026
+                    </div>
+
+                    <h1 class="heading-serif text-5xl sm:text-6xl lg:text-7xl font-light leading-[1.1] text-navy text-glow">
+                        Sumit <span class="font-script text-goldDark text-glow">&</span> Pratiksha
+                    </h1>
+
+                    <p class="font-script text-4xl sm:text-5xl text-goldDark text-glow leading-tight">
+                        Together is a wonderful place to be
+                    </p>
+
+                    <p class="text-navy/85 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed font-sans font-medium">
+                        With hearts full of love and joy, we invite you to celebrate our wedding day. Your presence and blessings mean the world to us as we begin our forever.
+                    </p>
+
+                    <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a href="#events" class="px-8 py-4 rounded-full bg-navy text-ivory font-semibold text-xs tracking-widest uppercase hover:bg-goldDark hover:text-navy transition-all duration-300 shadow-xl">
+                            View Events & Venue
+                        </a>
+                        <a href="#shortfilm" class="group flex items-center gap-3 px-7 py-4 rounded-full border-2 border-gold/60 hover:border-goldDark bg-white/90 backdrop-blur-md transition-all shadow-md">
+                            <span class="w-8 h-8 rounded-full bg-gold/20 flex items-center justify-center text-goldDark group-hover:bg-goldDark group-hover:text-white transition-all">
+                                <i class="fa-solid fa-play text-xs pl-0.5"></i>
+                            </span>
+                            <span class="text-xs uppercase tracking-widest font-bold text-navy">Watch Short Film</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Side: Arched Card Frame with image01.png -->
+                <div class="lg:col-span-6 relative flex justify-center lg:justify-end z-10" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="absolute inset-0 bg-gold/25 rounded-[45px] blur-3xl glow-behind scale-95 pointer-events-none"></div>
+                    <div class="relative w-full max-w-md lg:max-w-lg">
+                        <div class="washi-tape"></div>
+
+                        <div class="card-3d relative bg-white p-4 rounded-[42px] shadow-2xl border-2 border-gold/45">
+                            <div class="relative arch-img-1 overflow-hidden aspect-[4/5] bg-champagne/20 group">
+                                <img src="image01.png" alt="Sumit & Pratiksha" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-navy/60 via-transparent to-transparent"></div>
+                                
+                                <div class="absolute bottom-8 left-6 right-6 text-white text-center">
+                                    <span class="font-script text-3xl sm:text-4xl text-champagne text-glow">Sumit & Pratiksha</span>
+                                    <p class="text-xs uppercase tracking-[0.3em] mt-1 text-goldBright font-semibold">15 . 11 . 2026</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Countdown Widget -->
+                        <div class="absolute -bottom-6 -left-6 sm:-left-10 bg-white/95 backdrop-blur-md p-5 rounded-3xl shadow-2xl border border-gold/40 max-w-[270px]">
+                            <span class="text-[10px] uppercase tracking-[0.2em] text-goldDark font-bold block mb-2 text-center">Countdown to Forever</span>
+                            <div class="grid grid-cols-3 gap-2 text-center">
+                                <div class="bg-ivory p-2.5 rounded-xl border border-gold/20">
+                                    <span id="daysCount" class="heading-serif text-2xl font-bold text-navy block">--</span>
+                                    <span class="text-[9px] uppercase tracking-wider text-navy/60">Days</span>
+                                </div>
+                                <div class="bg-ivory p-2.5 rounded-xl border border-gold/20">
+                                    <span id="hoursCount" class="heading-serif text-2xl font-bold text-navy block">--</span>
+                                    <span class="text-[9px] uppercase tracking-wider text-navy/60">Hours</span>
+                                </div>
+                                <div class="bg-ivory p-2.5 rounded-xl border border-gold/20">
+                                    <span id="minutesCount" class="heading-serif text-2xl font-bold text-navy block">--</span>
+                                    <span class="text-[9px] uppercase tracking-wider text-navy/60">Mins</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Couple & Families Section -->
+    <section id="couple" class="py-28 bg-navy text-ivory relative overflow-hidden z-10">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#DFB15B_1.5px,transparent_1.5px)] [background-size:24px_24px]"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+                <span class="text-goldBright uppercase tracking-[0.3em] text-xs font-bold block mb-3">Family & Union</span>
+                <h2 class="heading-serif text-4xl sm:text-5xl font-light text-white text-glow">The Bride & Groom</h2>
+                <div class="w-20 h-0.5 bg-gradient-to-r from-transparent via-goldBright to-transparent mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="bg-navyLight/90 p-8 sm:p-10 rounded-[35px] border-2 border-gold/30 shadow-2xl relative card-3d" data-aos="fade-right">
+                    <div class="absolute top-6 right-6 w-12 h-12 rounded-full bg-gold/20 flex items-center justify-center text-goldBright">
+                        <i class="fa-solid fa-user-tie text-xl"></i>
+                    </div>
+                    <span class="text-xs uppercase tracking-[0.25em] text-goldBright font-bold block mb-2">Groom</span>
+                    <h3 class="heading-serif text-3xl sm:text-4xl font-bold text-white mb-3">Sumit Ramlal Sardar</h3>
+                    <p class="text-ivory/80 text-sm leading-relaxed mb-6">
+                        Son of <strong class="text-white font-semibold">Mr. Ramlal Sardar</strong> & <strong class="text-white font-semibold">Jijabai Ramlal Sardar</strong>
+                    </p>
+                    <div class="pt-4 border-t border-white/10 flex items-center justify-between text-xs tracking-wider uppercase text-champagne">
+                        <span>Groom Family</span>
+                        <span><i class="fa-solid fa-star text-[10px] mr-1 text-goldBright"></i> Welcoming All</span>
+                    </div>
+                </div>
+
+                <div class="bg-navyLight/90 p-8 sm:p-10 rounded-[35px] border-2 border-gold/30 shadow-2xl relative card-3d" data-aos="fade-left">
+                    <div class="absolute top-6 right-6 w-12 h-12 rounded-full bg-gold/20 flex items-center justify-center text-goldBright">
+                        <i class="fa-solid fa-person-dress text-xl"></i>
+                    </div>
+                    <span class="text-xs uppercase tracking-[0.25em] text-goldBright font-bold block mb-2">Bride</span>
+                    <h3 class="heading-serif text-3xl sm:text-4xl font-bold text-white mb-3">Pratiksha Geetaram Makasare</h3>
+                    <p class="text-ivory/80 text-sm leading-relaxed mb-6">
+                        Daughter of <strong class="text-white font-semibold">Geetaram Makasare</strong> & Family
+                    </p>
+                    <div class="pt-4 border-t border-white/10 flex items-center justify-between text-xs tracking-wider uppercase text-champagne">
+                        <span>Bride Family</span>
+                        <span><i class="fa-solid fa-star text-[10px] mr-1 text-goldBright"></i> Joyful Celebrations</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wedding Short Film Section -->
+    <section id="shortfilm" class="py-28 bg-gradient-to-b from-navy via-navyLight to-navy text-ivory relative z-10">
+        <div class="max-w-6xl mx-auto px-6 relative z-10">
+            <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+                <span class="text-goldBright uppercase tracking-[0.3em] text-xs font-bold block mb-3">Cinematic Story</span>
+                <h2 class="heading-serif text-4xl sm:text-5xl font-light text-white text-glow">Our Wedding Short Film</h2>
+                <p class="text-ivory/75 text-sm mt-3">Watch our journey, laughter, and magical moments captured on film.</p>
+                <div class="w-20 h-0.5 bg-gradient-to-r from-transparent via-goldBright to-transparent mx-auto mt-4"></div>
+            </div>
+
+            <div class="relative">
+                <div class="absolute inset-0 bg-gold/20 rounded-[40px] blur-3xl glow-behind scale-95 pointer-events-none"></div>
+
+                <div class="bg-navyDark/90 rounded-[40px] p-4 sm:p-8 shadow-2xl border-2 border-gold/45 card-3d relative z-10" data-aos="zoom-in">
+                    <div class="aspect-video bg-black rounded-3xl overflow-hidden relative shadow-inner group">
+                        <video id="shortFilmVideo" class="w-full h-full object-cover" controls>
+                            <source src="https://assets.mixkit.co/videos/preview/mixkit-bride-and-groom-holding-hands-in-nature-41604-large.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="mt-6 flex flex-wrap items-center justify-between gap-4 text-xs text-ivory/80 px-2">
+                        <span class="text-champagne font-semibold tracking-wider"><i class="fa-solid fa-film text-goldBright mr-2"></i> Sumit & Pratiksha Pre-Wedding Cinematic Film</span>
+                        <div class="flex items-center gap-3">
+                            <span class="text-ivory/60">Upload custom video:</span>
+                            <input type="file" id="filmUpload" accept="video/*" class="text-xs text-ivory file:mr-3 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-xs file:font-bold file:bg-goldDark file:text-navy hover:file:bg-champagne cursor-pointer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events & Venue Section -->
+    <section id="events" class="py-28 bg-ivory relative z-10">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+                <span class="text-goldDark uppercase tracking-[0.3em] text-xs font-bold block mb-3">Schedule & Ceremonies</span>
+                <h2 class="heading-serif text-4xl sm:text-5xl font-light text-navy text-glow">Wedding Events & Venue</h2>
+                <div class="w-20 h-0.5 bg-gradient-to-r from-transparent via-goldDark to-transparent mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+                <div class="bg-white p-8 rounded-[30px] shadow-xl border-2 border-gold/20 text-center card-3d" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 rounded-full bg-gradient-to-br from-champagne to-gold text-navy flex items-center justify-center mx-auto mb-6 text-2xl shadow-md">
+                        <i class="fa-solid fa-hand-sparkles"></i>
+                    </div>
+                    <span class="text-xs uppercase tracking-widest text-goldDark font-bold block mb-1">13.11.2026</span>
+                    <h3 class="heading-serif text-2xl font-bold text-navy mb-3">Mehendi Ceremony</h3>
+                    <p class="text-navy/70 text-sm leading-relaxed">Intricate henna designs, folk music, and vibrant family celebrations.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-[30px] shadow-xl border-2 border-gold/20 text-center card-3d" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 rounded-full bg-gradient-to-br from-champagne to-gold text-navy flex items-center justify-center mx-auto mb-6 text-2xl shadow-md">
+                        <i class="fa-solid fa-sun"></i>
+                    </div>
+                    <span class="text-xs uppercase tracking-widest text-goldDark font-bold block mb-1">14.11.2026</span>
+                    <h3 class="heading-serif text-2xl font-bold text-navy mb-3">Haldi Ceremony</h3>
+                    <p class="text-navy/70 text-sm leading-relaxed">Traditional turmeric blessing ritual filled with natural glow and laughter.</p>
+                </div>
+
+                <div class="bg-gradient-to-br from-navy to-navyLight text-white p-8 rounded-[30px] shadow-2xl text-center card-3d relative overflow-hidden border-2 border-gold/50" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 rounded-full bg-gold/30 text-goldBright flex items-center justify-center mx-auto mb-6 text-2xl shadow-inner">
+                        <i class="fa-solid fa-rings-wedding"></i>
+                    </div>
+                    <span class="text-xs uppercase tracking-widest text-champagne font-bold block mb-1">15.11.2026</span>
+                    <h3 class="heading-serif text-2xl font-bold text-white mb-2">Wedding Muhurat</h3>
+                    <p class="text-goldBright font-semibold text-sm mb-3">12:00 PM to 1:00 PM</p>
+                    <p class="text-ivory/80 text-xs leading-relaxed">The sacred vows and union of Sumit & Pratiksha.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-[30px] shadow-xl border-2 border-gold/20 text-center card-3d" data-aos="fade-up" data-aos-delay="400">
+                    <div class="w-16 h-16 rounded-full bg-gradient-to-br from-champagne to-gold text-navy flex items-center justify-center mx-auto mb-6 text-2xl shadow-md">
+                        <i class="fa-solid fa-champagne-glasses"></i>
+                    </div>
+                    <span class="text-xs uppercase tracking-widest text-goldDark font-bold block mb-1">15.11.2026</span>
+                    <h3 class="heading-serif text-2xl font-bold text-navy mb-3">Grand Reception</h3>
+                    <p class="text-navy/70 text-sm leading-relaxed">Dinner, music, and celebration to bless the newlywed couple.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-[35px] p-8 sm:p-12 shadow-2xl border-2 border-gold/30 relative overflow-hidden" data-aos="fade-up">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-7 space-y-4">
+                        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-frenchBlue/15 text-frenchBlue text-xs uppercase tracking-widest font-bold">
+                            <i class="fa-solid fa-location-dot"></i> Venue Location
+                        </div>
+                        <h3 class="heading-serif text-3xl sm:text-4xl font-bold text-navy">Sura Lawns</h3>
+                        <p class="text-navy/80 text-base leading-relaxed font-medium">
+                            Lasur, Chh. Sambhajinagar (Aurangabad), Maharashtra.
+                        </p>
+                        <p class="text-navy/70 text-sm">
+                            We look forward to welcoming you at Sura Lawns for the wedding ceremony and reception. Free parking and all arrangements available.
+                        </p>
+                        <div class="pt-2">
+                            <a href="https://maps.app.goo.gl/FoL3KcysnbYFQzNP9" target="_blank" class="px-8 py-3.5 rounded-full bg-navy text-ivory text-xs uppercase tracking-widest font-bold hover:bg-goldDark hover:text-navy transition-all shadow-md inline-flex items-center gap-2">
+                                <i class="fa-solid fa-map-location-dot text-goldBright"></i> Open in Google Maps
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-5">
+                        <div class="rounded-3xl overflow-hidden shadow-inner border border-gold/30 h-64 bg-champagne/20 relative group">
+                            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800" alt="Venue Lawns" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                            <div class="absolute inset-0 bg-navy/30 flex items-center justify-center">
+                                <a href="https://maps.app.goo.gl/FoL3KcysnbYFQzNP9" target="_blank" class="px-6 py-3 rounded-full bg-white text-navy font-bold text-xs tracking-widest uppercase shadow-xl hover:bg-goldDark hover:text-white transition-all">
+                                    Get Directions <i class="fa-solid fa-arrow-right ml-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Clean, Static Bento Photo Gallery Section (Fixed Ratios, No Loop, Full Lightbox Zoom) -->
+    <section id="gallery" class="py-28 bg-navy text-ivory relative overflow-hidden z-10">
+        <div class="absolute inset-0 opacity-5 bg-[radial-gradient(#DFB15B_2px,transparent_2px)] [background-size:20px_20px]"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+                <span class="text-goldBright uppercase tracking-[0.3em] text-xs font-bold block mb-3">Precious Moments</span>
+                <h2 class="heading-serif text-4xl sm:text-5xl font-light text-white text-glow">Wedding Album</h2>
+                <p class="text-ivory/75 text-sm mt-2">Tap any photo to view in high resolution</p>
+                <div class="w-20 h-0.5 bg-gradient-to-r from-transparent via-goldBright to-transparent mx-auto mt-4"></div>
+            </div>
+
+            <!-- Static Bento Grid Layout with Properly Fitted Images -->
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 auto-rows-[240px]">
+                
+                <!-- Tile 1 (Large Featured) -->
+                <div class="md:col-span-2 md:row-span-2 overflow-hidden rounded-[35px] shadow-2xl relative group card-3d border-2 border-gold/30 cursor-pointer" data-aos="fade-up" data-aos-delay="100" onclick="openLightbox('image01.png', 'Sumit & Pratiksha Portrait')">
+                    <img src="image01.png" alt="Sumit & Pratiksha" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
+                        <span class="text-xs uppercase tracking-widest text-goldBright font-bold mb-1">Featured Portrait</span>
+                        <h4 class="heading-serif text-3xl text-champagne text-glow">Sumit & Pratiksha</h4>
+                    </div>
+                </div>
+
+                <!-- Tile 2 -->
+                <div class="md:col-span-1 md:row-span-1 overflow-hidden rounded-[30px] shadow-2xl relative group card-3d border-2 border-gold/30 cursor-pointer" data-aos="fade-up" data-aos-delay="200" onclick="openLightbox('image02.png', 'Sacred Vows')">
+                    <img src="image02.png" alt="Sacred Vows" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-navy/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <h4 class="heading-serif text-xl text-champagne text-glow">Sacred Vows</h4>
+                    </div>
+                </div>
+
+                <!-- Tile 3 -->
+                <div class="md:col-span-1 md:row-span-1 overflow-hidden rounded-[30px] shadow-2xl relative group card-3d border-2 border-gold/30 cursor-pointer" data-aos="fade-up" data-aos-delay="300" onclick="openLightbox('image03.png', 'Grand Celebration')">
+                    <img src="image03.png" alt="Grand Celebration" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-navy/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <h4 class="heading-serif text-xl text-champagne text-glow">Grand Celebration</h4>
+                    </div>
+                </div>
+
+                <!-- Tile 4 (Tall) -->
+                <div class="md:col-span-1 md:row-span-2 overflow-hidden rounded-[35px] shadow-2xl relative group card-3d border-2 border-gold/30 cursor-pointer" data-aos="fade-up" data-aos-delay="400" onclick="openLightbox('image04.png', 'Golden Hour Love')">
+                    <img src="image04.png" alt="Golden Hour" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-navy/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <h4 class="heading-serif text-2xl text-champagne text-glow">Golden Hour Love</h4>
+                    </div>
+                </div>
+
+                <!-- Tile 5 -->
+                <div class="md:col-span-1 md:row-span-1 overflow-hidden rounded-[30px] shadow-2xl relative group card-3d border-2 border-gold/30 cursor-pointer" data-aos="fade-up" data-aos-delay="500" onclick="openLightbox('image01.png', 'Haldi & Rituals')">
+                    <img src="image01.png" alt="Haldi Ritual" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-navy/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <h4 class="heading-serif text-xl text-champagne text-glow">Haldi & Rituals</h4>
+                    </div>
+                </div>
+
+                <!-- Tile 6 (Wide) -->
+                <div class="md:col-span-2 md:row-span-1 overflow-hidden rounded-[35px] shadow-2xl relative group card-3d border-2 border-gold/30 cursor-pointer" data-aos="fade-up" data-aos-delay="600" onclick="openLightbox('image02.png', 'First Dance & Joy')">
+                    <img src="image02.png" alt="First Dance" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-navy/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+                        <h4 class="heading-serif text-2xl text-champagne text-glow">First Dance & Joy</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Full-Size Lightbox Modal -->
+    <div id="lightboxModal" class="fixed inset-0 z-50 bg-navy/95 backdrop-blur-lg hidden items-center justify-center p-4">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 z-20 w-12 h-12 rounded-full bg-white/10 hover:bg-gold text-white hover:text-navy flex items-center justify-center transition-all text-xl">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="max-w-5xl max-h-[90vh] relative flex flex-col items-center">
+            <img id="lightboxImg" src="" alt="Full Size Photo" class="max-w-full max-h-[80vh] object-contain rounded-3xl shadow-2xl border-2 border-gold/50">
+            <h3 id="lightboxCaption" class="heading-serif text-3xl text-champagne text-glow mt-4 text-center"></h3>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-navy text-ivory py-16 border-t border-gold/20 text-center relative z-10">
+        <div class="max-w-7xl mx-auto px-6 space-y-4">
+            <div class="w-12 h-12 rounded-full border border-gold flex items-center justify-center mx-auto bg-gold/10 text-goldBright">
+                <i class="fa-solid fa-rings-wedding"></i>
+            </div>
+            <h3 class="font-script text-4xl text-champagne text-glow">Sumit & Pratiksha</h3>
+            <p class="text-xs uppercase tracking-[0.3em] text-ivory/60">15th November 2026 • Sura Lawns, Lasur</p>
+            <div class="w-12 h-0.5 bg-gold/40 mx-auto"></div>
+            <p class="text-xs text-ivory/40">© 2026 Sumit & Pratiksha Wedding. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+/* Smooth Scrolling Enabled */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FFFBF5;
+    color: #152238;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.heading-serif {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.font-script {
+    font-family: 'Great Vibes', cursive;
+}
+
+/* GautamB.png Background Image with Seamless White Radial Blend */
+.hero-buddha-bg {
+    background-image: radial-gradient(circle at 75% 50%, rgba(255,251,245,0.4) 0%, rgba(255,251,245,0.92) 55%, #FFFBF5 85%), url('GautamB.png');
+    background-size: 550px auto;
+    background-position: right 60% center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+@media (max-width: 1024px) {
+    .hero-buddha-bg {
+        background-image: radial-gradient(circle at center, rgba(255,251,245,0.7) 20%, rgba(255,251,245,0.95) 80%), url('GautamB.png');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/* Glowing text effect */
+.text-glow {
+    text-shadow: 0 0 20px rgba(223, 177, 91, 0.45), 0 0 40px rgba(243, 229, 171, 0.25);
+}
+
+/* Glowing aura behind images and containers */
+.glow-behind {
+    filter: blur(40px);
+    opacity: 0.6;
+    animation: pulseGlow 4s ease-in-out infinite alternate;
+}
+
+@keyframes pulseGlow {
+    0% { transform: scale(0.95); opacity: 0.4; }
+    100% { transform: scale(1.05); opacity: 0.7; }
+}
+
+/* Soft White Blend & Gradient Mask for DrBaba.png (Top-Left) */
+.corner-blessing-left {
+    mask-image: radial-gradient(circle at top left, rgba(0,0,0,1) 35%, rgba(0,0,0,0) 85%);
+    -webkit-mask-image: radial-gradient(circle at top left, rgba(0,0,0,1) 35%, rgba(0,0,0,0) 85%);
+    mix-blend-mode: lighten;
+    opacity: 0.85;
+}
+
+/* 3D Tilt Card Effect */
+.card-3d {
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.5s ease;
+}
+
+.card-3d:hover {
+    transform: translateY(-8px) rotateX(1deg) rotateY(-1deg);
+    box-shadow: 25px 35px 50px rgba(21, 34, 56, 0.15), 0 0 30px rgba(223, 177, 91, 0.3);
+}
+
+/* Asymmetric Arch Frame */
+.arch-img-1 {
+    border-radius: 220px 220px 35px 35px;
+}
+
+/* Washi tape visual effect */
+.washi-tape {
+    position: absolute;
+    width: 110px;
+    height: 28px;
+    background: rgba(243, 229, 171, 0.85);
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-2deg);
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FFFBF5;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #DFB15B;
+    border-radius: 5px;
+}
